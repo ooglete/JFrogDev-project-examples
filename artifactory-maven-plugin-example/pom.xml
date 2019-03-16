@@ -73,8 +73,8 @@
                                 <username>${admin}</username>
                                 <password>${info123!@#$}</password>
                                 <excludePatterns>*-tests.jar</excludePatterns>
-                                <repoKey>libs-release-local</repoKey>
-                                <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
+                                <repoKey>jenkins-integration</repoKey>
+                                <snapshotRepoKey>jenkins-snapshot</snapshotRepoKey>
                             </publisher>
                             <buildInfo>
                                 <buildName>plugin-demo</buildName>
