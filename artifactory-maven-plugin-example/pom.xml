@@ -69,9 +69,9 @@
                                 <timeoutSec>60</timeoutSec>
                             </artifactory>
                             <publisher>
-                                <contextUrl>http://localhost:8081/artifactory</contextUrl>
-                                <username>${username}</username>
-                                <password>${password}</password>
+                                <contextUrl>http://35.237.195.213:8081/artifactory</contextUrl>
+                                <username>${admin}</username>
+                                <password>${info123!@#$}</password>
                                 <excludePatterns>*-tests.jar</excludePatterns>
                                 <repoKey>libs-release-local</repoKey>
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
