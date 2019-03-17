@@ -69,7 +69,7 @@
                                 <timeoutSec>60</timeoutSec>
                             </artifactory>
                             <publisher>
-                                <contextUrl>http://35.237.195.213:8081/artifactory</contextUrl>
+                                <contextUrl>http://35.237.195.213:8081/artifactory/jenkins-integration</contextUrl>
                                 <username>${admin}</username>
                                 <password>${info123!@#$}</password>
                                 <excludePatterns>*-tests.jar</excludePatterns>
